@@ -1,0 +1,8 @@
+{
+  "min_score": 0.35,
+  "min_gap": 0.25,
+  "validation_auto_correct": 14,
+  "validation_total": 36,
+  "train_sha256": "7ef884f7b83ef496fb3c0f77bb1f947234c09f9291381112ddc7414f7881dc37",
+  "validation_sha256": "32ecd07c993ae8fb4da04e12522cd04de45a512c66a718690c43cfda1fed5679"
+}

@@ -1,0 +1,2084 @@
+{
+  "environment": {
+    "python": "3.13.9",
+    "sklearn": "1.7.2",
+    "platform": "Windows"
+  },
+  "splits": {
+    "test": {
+      "sha256": "ac0bbdba9ef644e781255f5dff19ff62a4f72f3fd621385620e172b6f7ff1f3b",
+      "n": 60,
+      "metrics": {
+        "keywords": {
+          "classification": {
+            "correct": 26,
+            "total": 48,
+            "accuracy": 0.5416666666666666,
+            "macro_f1": 0.6881562881562883,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.25,
+                "f1": 0.4,
+                "support": 8
+              },
+              "network": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.625,
+                "f1": 0.7692307692307693,
+                "support": 8
+              },
+              "mail": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 0.625,
+                "f1": 0.7692307692307693,
+                "support": 8
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "routing": {
+            "correct": 37,
+            "total": 60,
+            "accuracy": 0.6166666666666667,
+            "macro_f1": 0.6544947116375688,
+            "per_class": {
+              "access": {
+                "precision": 0.6666666666666666,
+                "recall": 0.25,
+                "f1": 0.36363636363636365,
+                "support": 8
+              },
+              "network": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.625,
+                "f1": 0.7692307692307693,
+                "support": 8
+              },
+              "mail": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 0.625,
+                "f1": 0.7692307692307693,
+                "support": 8
+              },
+              "review": {
+                "precision": 0.3333333333333333,
+                "recall": 0.9166666666666666,
+                "f1": 0.4888888888888889,
+                "support": 12
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                3
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                11
+              ]
+            ],
+            "auto_count": 27,
+            "coverage": 0.45,
+            "auto_correct": 26,
+            "auto_accuracy": 0.9629629629629629,
+            "review_expected": 12,
+            "review_held": 11
+          }
+        },
+        "word": {
+          "classification": {
+            "correct": 41,
+            "total": 48,
+            "accuracy": 0.8541666666666666,
+            "macro_f1": 0.856454248366013,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75,
+                "support": 8
+              },
+              "software": {
+                "precision": 0.8888888888888888,
+                "recall": 1.0,
+                "f1": 0.9411764705882353,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875,
+                "support": 8
+              },
+              "print": {
+                "precision": 0.6666666666666666,
+                "recall": 0.75,
+                "f1": 0.7058823529411765,
+                "support": 8
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                7,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                6,
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                7,
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                7,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                1,
+                0,
+                0,
+                6,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "routing": {
+            "correct": 35,
+            "total": 60,
+            "accuracy": 0.5833333333333334,
+            "macro_f1": 0.6248870177441607,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.375,
+                "f1": 0.5454545454545454,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75,
+                "support": 8
+              },
+              "software": {
+                "precision": 0.8333333333333334,
+                "recall": 0.625,
+                "f1": 0.7142857142857143,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.625,
+                "f1": 0.7692307692307693,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.75,
+                "recall": 0.375,
+                "f1": 0.5,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "review": {
+                "precision": 0.3,
+                "recall": 0.75,
+                "f1": 0.42857142857142855,
+                "support": 12
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5
+              ],
+              [
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                3,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                4
+              ],
+              [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                9
+              ]
+            ],
+            "auto_count": 30,
+            "coverage": 0.5,
+            "auto_correct": 26,
+            "auto_accuracy": 0.8666666666666667,
+            "review_expected": 12,
+            "review_held": 9
+          }
+        },
+        "char": {
+          "classification": {
+            "correct": 46,
+            "total": 48,
+            "accuracy": 0.9583333333333334,
+            "macro_f1": 0.9581699346405229,
+            "per_class": {
+              "access": {
+                "precision": 0.8888888888888888,
+                "recall": 1.0,
+                "f1": 0.9411764705882353,
+                "support": 8
+              },
+              "network": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.8888888888888888,
+                "recall": 1.0,
+                "f1": 0.9411764705882353,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 8
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                7,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                7,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "routing": {
+            "correct": 42,
+            "total": 60,
+            "accuracy": 0.7,
+            "macro_f1": 0.7423779228290506,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.625,
+                "f1": 0.7692307692307693,
+                "support": 8
+              },
+              "network": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "support": 8
+              },
+              "software": {
+                "precision": 0.8333333333333334,
+                "recall": 0.625,
+                "f1": 0.7142857142857143,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "support": 8
+              },
+              "mail": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "support": 8
+              },
+              "print": {
+                "precision": 0.8,
+                "recall": 0.5,
+                "f1": 0.6153846153846154,
+                "support": 8
+              },
+              "review": {
+                "precision": 0.38461538461538464,
+                "recall": 0.8333333333333334,
+                "f1": 0.5263157894736842,
+                "support": 12
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                6,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                4
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                10
+              ]
+            ],
+            "auto_count": 34,
+            "coverage": 0.5666666666666667,
+            "auto_correct": 32,
+            "auto_accuracy": 0.9411764705882353,
+            "review_expected": 12,
+            "review_held": 10
+          }
+        },
+        "combined": {
+          "classification": {
+            "correct": 46,
+            "total": 48,
+            "accuracy": 0.9583333333333334,
+            "macro_f1": 0.9581699346405229,
+            "per_class": {
+              "access": {
+                "precision": 0.8888888888888888,
+                "recall": 1.0,
+                "f1": 0.9411764705882353,
+                "support": 8
+              },
+              "network": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.8888888888888888,
+                "recall": 1.0,
+                "f1": 0.9411764705882353,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 8
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                7,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                7,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "routing": {
+            "correct": 48,
+            "total": 60,
+            "accuracy": 0.8,
+            "macro_f1": 0.8284913965586236,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "network": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "support": 8
+              },
+              "mail": {
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.8571428571428571,
+                "support": 8
+              },
+              "print": {
+                "precision": 0.8333333333333334,
+                "recall": 0.625,
+                "f1": 0.7142857142857143,
+                "support": 8
+              },
+              "review": {
+                "precision": 0.5,
+                "recall": 0.9166666666666666,
+                "f1": 0.6470588235294118,
+                "support": 12
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                7,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                7,
+                0,
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0,
+                6,
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                5,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                11
+              ]
+            ],
+            "auto_count": 38,
+            "coverage": 0.6333333333333333,
+            "auto_correct": 37,
+            "auto_accuracy": 0.9736842105263158,
+            "review_expected": 12,
+            "review_held": 11
+          }
+        }
+      }
+    },
+    "stress": {
+      "sha256": "493bbbd0a679993ae0dc203db135db6e1e6a9b63648a1ac8524ff4817f6d1c09",
+      "n": 72,
+      "metrics": {
+        "keywords": {
+          "classification": {
+            "correct": 6,
+            "total": 48,
+            "accuracy": 0.125,
+            "macro_f1": 0.21851851851851856,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              },
+              "network": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 0.5,
+                "recall": 0.125,
+                "f1": 0.2,
+                "support": 8
+              },
+              "mail": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                7
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "routing": {
+            "correct": 27,
+            "total": 72,
+            "accuracy": 0.375,
+            "macro_f1": 0.24812242021544345,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.5,
+                "recall": 0.125,
+                "f1": 0.2,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 0.3333333333333333,
+                "recall": 0.125,
+                "f1": 0.18181818181818182,
+                "support": 8
+              },
+              "mail": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              },
+              "print": {
+                "precision": 0.5,
+                "recall": 0.125,
+                "f1": 0.2,
+                "support": 8
+              },
+              "review": {
+                "precision": 0.3387096774193548,
+                "recall": 0.875,
+                "f1": 0.4883720930232558,
+                "support": 24
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                7
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                7
+              ],
+              [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                21
+              ]
+            ],
+            "auto_count": 10,
+            "coverage": 0.1388888888888889,
+            "auto_correct": 6,
+            "auto_accuracy": 0.6,
+            "review_expected": 24,
+            "review_held": 21
+          }
+        },
+        "word": {
+          "classification": {
+            "correct": 32,
+            "total": 48,
+            "accuracy": 0.6666666666666666,
+            "macro_f1": 0.6651479969978422,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.375,
+                "f1": 0.5454545454545454,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.6666666666666666,
+                "recall": 0.75,
+                "f1": 0.7058823529411765,
+                "support": 8
+              },
+              "software": {
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.45454545454545453,
+                "recall": 0.625,
+                "f1": 0.5263157894736842,
+                "support": 8
+              },
+              "print": {
+                "precision": 0.5555555555555556,
+                "recall": 0.625,
+                "f1": 0.5882352941176471,
+                "support": 8
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                3,
+                0,
+                0,
+                1,
+                0,
+                4,
+                0
+              ],
+              [
+                0,
+                6,
+                0,
+                0,
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                7,
+                0,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                6,
+                2,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                1,
+                1,
+                5,
+                0,
+                0
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                1,
+                5,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "routing": {
+            "correct": 36,
+            "total": 72,
+            "accuracy": 0.5,
+            "macro_f1": 0.4317460317460317,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.5,
+                "recall": 0.375,
+                "f1": 0.42857142857142855,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.25,
+                "f1": 0.4,
+                "support": 8
+              },
+              "mail": {
+                "precision": 1.0,
+                "recall": 0.25,
+                "f1": 0.4,
+                "support": 8
+              },
+              "print": {
+                "precision": 0.5,
+                "recall": 0.25,
+                "f1": 0.3333333333333333,
+                "support": 8
+              },
+              "review": {
+                "precision": 0.41509433962264153,
+                "recall": 0.9166666666666666,
+                "f1": 0.5714285714285714,
+                "support": 24
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                5
+              ],
+              [
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                2,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                2,
+                5
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                22
+              ]
+            ],
+            "auto_count": 19,
+            "coverage": 0.2638888888888889,
+            "auto_correct": 14,
+            "auto_accuracy": 0.7368421052631579,
+            "review_expected": 24,
+            "review_held": 22
+          }
+        },
+        "char": {
+          "classification": {
+            "correct": 40,
+            "total": 48,
+            "accuracy": 0.8333333333333334,
+            "macro_f1": 0.8386437908496732,
+            "per_class": {
+              "access": {
+                "precision": 0.6,
+                "recall": 0.75,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.7777777777777778,
+                "recall": 0.875,
+                "f1": 0.8235294117647058,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 0.8571428571428571,
+                "recall": 0.75,
+                "f1": 0.8,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                6,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                7,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                7,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                6,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                7,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                7,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "routing": {
+            "correct": 37,
+            "total": 72,
+            "accuracy": 0.5138888888888888,
+            "macro_f1": 0.48358308358308355,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.25,
+                "f1": 0.4,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.5,
+                "recall": 0.25,
+                "f1": 0.3333333333333333,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.375,
+                "f1": 0.5454545454545454,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.25,
+                "f1": 0.4,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.8,
+                "recall": 0.5,
+                "f1": 0.6153846153846154,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 0.375,
+                "f1": 0.5454545454545454,
+                "support": 8
+              },
+              "review": {
+                "precision": 0.39622641509433965,
+                "recall": 0.875,
+                "f1": 0.5454545454545454,
+                "support": 24
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                5
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                5
+              ],
+              [
+                0,
+                2,
+                0,
+                0,
+                1,
+                0,
+                21
+              ]
+            ],
+            "auto_count": 19,
+            "coverage": 0.2638888888888889,
+            "auto_correct": 16,
+            "auto_accuracy": 0.8421052631578947,
+            "review_expected": 24,
+            "review_held": 21
+          }
+        },
+        "combined": {
+          "classification": {
+            "correct": 39,
+            "total": 48,
+            "accuracy": 0.8125,
+            "macro_f1": 0.8166666666666668,
+            "per_class": {
+              "access": {
+                "precision": 0.6,
+                "recall": 0.75,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875,
+                "support": 8
+              },
+              "software": {
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 0.8571428571428571,
+                "recall": 0.75,
+                "f1": 0.8,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "support": 8
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                6,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                7,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                7,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                6,
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                1,
+                0,
+                6,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                7,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          "routing": {
+            "correct": 42,
+            "total": 72,
+            "accuracy": 0.5833333333333334,
+            "macro_f1": 0.5885923600209314,
+            "per_class": {
+              "access": {
+                "precision": 1.0,
+                "recall": 0.25,
+                "f1": 0.4,
+                "support": 8
+              },
+              "network": {
+                "precision": 0.5714285714285714,
+                "recall": 0.5,
+                "f1": 0.5333333333333333,
+                "support": 8
+              },
+              "software": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "hardware": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "mail": {
+                "precision": 0.8,
+                "recall": 0.5,
+                "f1": 0.6153846153846154,
+                "support": 8
+              },
+              "print": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 8
+              },
+              "review": {
+                "precision": 0.43478260869565216,
+                "recall": 0.8333333333333334,
+                "f1": 0.5714285714285714,
+                "support": 24
+              }
+            },
+            "matrix_order": [
+              "access",
+              "network",
+              "software",
+              "hardware",
+              "mail",
+              "print",
+              "review"
+            ],
+            "matrix": [
+              [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                4,
+                0,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                4,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                4
+              ],
+              [
+                0,
+                3,
+                0,
+                0,
+                1,
+                0,
+                20
+              ]
+            ],
+            "auto_count": 26,
+            "coverage": 0.3611111111111111,
+            "auto_correct": 22,
+            "auto_accuracy": 0.8461538461538461,
+            "review_expected": 24,
+            "review_held": 20
+          }
+        }
+      }
+    }
+  },
+  "stress_groups": {
+    "typo": {
+      "n": 12,
+      "review_expected": 0,
+      "keywords_correct": 0,
+      "ml_correct": 8,
+      "ml_manual": 4,
+      "ml_wrong_auto": 0
+    },
+    "mixed_language": {
+      "n": 12,
+      "review_expected": 0,
+      "keywords_correct": 4,
+      "ml_correct": 4,
+      "ml_manual": 8,
+      "ml_wrong_auto": 0
+    },
+    "implicit": {
+      "n": 12,
+      "review_expected": 0,
+      "keywords_correct": 0,
+      "ml_correct": 1,
+      "ml_manual": 11,
+      "ml_wrong_auto": 0
+    },
+    "distractor": {
+      "n": 12,
+      "review_expected": 0,
+      "keywords_correct": 2,
+      "ml_correct": 9,
+      "ml_manual": 3,
+      "ml_wrong_auto": 0
+    },
+    "mixed": {
+      "n": 8,
+      "review_expected": 8,
+      "keywords_correct": 5,
+      "ml_correct": 6,
+      "ml_manual": 6,
+      "ml_wrong_auto": 2
+    },
+    "out_of_scope": {
+      "n": 8,
+      "review_expected": 8,
+      "keywords_correct": 8,
+      "ml_correct": 8,
+      "ml_manual": 8,
+      "ml_wrong_auto": 0
+    },
+    "vague": {
+      "n": 8,
+      "review_expected": 8,
+      "keywords_correct": 8,
+      "ml_correct": 6,
+      "ml_manual": 6,
+      "ml_wrong_auto": 2
+    }
+  },
+  "timing_on_stress": {
+    "calls": 360,
+    "median_ms": 0.6805,
+    "p95_ms": 0.8189500000000001
+  }
+}

@@ -1,0 +1,793 @@
+{
+  "method": "Варианты зафиксированы на train/validation. combined использует прежние пороги.",
+  "train_sha256": "7ef884f7b83ef496fb3c0f77bb1f947234c09f9291381112ddc7414f7881dc37",
+  "validation_sha256": "32ecd07c993ae8fb4da04e12522cd04de45a512c66a718690c43cfda1fed5679",
+  "files": {
+    "triage.py": "c460e4efd1b124267a0f0ebb3a38bef3b1597b8f9effa97e17dbdced03b34ab4",
+    "evaluate.py": "2074151cc286e03098c3bb6eecbf62c3558630b2bc85424d7e79760c7f603886",
+    "experiment.py": "8f2e24f11339b548e69086d2809417c4bb0a77c103b50de171faa1a4c53322fe",
+    "results/policy.json": "2a8fb7a88bbac9f6fffb2bdb9cdcccbb78528b6195258b80dc1e5cc8908ed67c"
+  },
+  "variants": {
+    "word": {
+      "policy": {
+        "min_score": 0.3,
+        "min_gap": 0.15,
+        "validation_auto_correct": 12,
+        "validation_total": 36,
+        "train_sha256": "7ef884f7b83ef496fb3c0f77bb1f947234c09f9291381112ddc7414f7881dc37",
+        "validation_sha256": "32ecd07c993ae8fb4da04e12522cd04de45a512c66a718690c43cfda1fed5679"
+      },
+      "validation": {
+        "classification": {
+          "correct": 20,
+          "total": 30,
+          "accuracy": 0.6666666666666666,
+          "macro_f1": 0.6619047619047619,
+          "per_class": {
+            "access": {
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666666,
+              "support": 5
+            },
+            "network": {
+              "precision": 0.5714285714285714,
+              "recall": 0.8,
+              "f1": 0.6666666666666666,
+              "support": 5
+            },
+            "software": {
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8,
+              "support": 5
+            },
+            "hardware": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714,
+              "support": 5
+            },
+            "mail": {
+              "precision": 0.6,
+              "recall": 0.6,
+              "f1": 0.6,
+              "support": 5
+            },
+            "print": {
+              "precision": 0.5714285714285714,
+              "recall": 0.8,
+              "f1": 0.6666666666666666,
+              "support": 5
+            }
+          },
+          "matrix_order": [
+            "access",
+            "network",
+            "software",
+            "hardware",
+            "mail",
+            "print",
+            "review"
+          ],
+          "matrix": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              3,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "routing": {
+          "correct": 18,
+          "total": 36,
+          "accuracy": 0.5,
+          "macro_f1": 0.5299319727891156,
+          "per_class": {
+            "access": {
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.75,
+              "support": 5
+            },
+            "network": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714,
+              "support": 5
+            },
+            "software": {
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.75,
+              "support": 5
+            },
+            "hardware": {
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333,
+              "support": 5
+            },
+            "mail": {
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333,
+              "support": 5
+            },
+            "print": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714,
+              "support": 5
+            },
+            "review": {
+              "precision": 0.25,
+              "recall": 1.0,
+              "f1": 0.4,
+              "support": 6
+            }
+          },
+          "matrix_order": [
+            "access",
+            "network",
+            "software",
+            "hardware",
+            "mail",
+            "print",
+            "review"
+          ],
+          "matrix": [
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              6
+            ]
+          ],
+          "auto_count": 12,
+          "coverage": 0.3333333333333333,
+          "auto_correct": 12,
+          "auto_accuracy": 1.0,
+          "review_expected": 6,
+          "review_held": 6
+        }
+      }
+    },
+    "char": {
+      "policy": {
+        "min_score": 0.45,
+        "min_gap": 0.3,
+        "validation_auto_correct": 14,
+        "validation_total": 36,
+        "train_sha256": "7ef884f7b83ef496fb3c0f77bb1f947234c09f9291381112ddc7414f7881dc37",
+        "validation_sha256": "32ecd07c993ae8fb4da04e12522cd04de45a512c66a718690c43cfda1fed5679"
+      },
+      "validation": {
+        "classification": {
+          "correct": 27,
+          "total": 30,
+          "accuracy": 0.9,
+          "macro_f1": 0.9018518518518519,
+          "per_class": {
+            "access": {
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333334,
+              "support": 5
+            },
+            "network": {
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "support": 5
+            },
+            "software": {
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "support": 5
+            },
+            "hardware": {
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8,
+              "support": 5
+            },
+            "mail": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 5
+            },
+            "print": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 5
+            }
+          },
+          "matrix_order": [
+            "access",
+            "network",
+            "software",
+            "hardware",
+            "mail",
+            "print",
+            "review"
+          ],
+          "matrix": [
+            [
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "routing": {
+          "correct": 20,
+          "total": 36,
+          "accuracy": 0.5555555555555556,
+          "macro_f1": 0.5935374149659864,
+          "per_class": {
+            "access": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714,
+              "support": 5
+            },
+            "network": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714,
+              "support": 5
+            },
+            "software": {
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.75,
+              "support": 5
+            },
+            "hardware": {
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333,
+              "support": 5
+            },
+            "mail": {
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.75,
+              "support": 5
+            },
+            "print": {
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.75,
+              "support": 5
+            },
+            "review": {
+              "precision": 0.2727272727272727,
+              "recall": 1.0,
+              "f1": 0.42857142857142855,
+              "support": 6
+            }
+          },
+          "matrix_order": [
+            "access",
+            "network",
+            "software",
+            "hardware",
+            "mail",
+            "print",
+            "review"
+          ],
+          "matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              6
+            ]
+          ],
+          "auto_count": 14,
+          "coverage": 0.3888888888888889,
+          "auto_correct": 14,
+          "auto_accuracy": 1.0,
+          "review_expected": 6,
+          "review_held": 6
+        }
+      }
+    },
+    "combined": {
+      "policy": {
+        "min_score": 0.35,
+        "min_gap": 0.25,
+        "validation_auto_correct": 14,
+        "validation_total": 36,
+        "train_sha256": "7ef884f7b83ef496fb3c0f77bb1f947234c09f9291381112ddc7414f7881dc37",
+        "validation_sha256": "32ecd07c993ae8fb4da04e12522cd04de45a512c66a718690c43cfda1fed5679"
+      },
+      "validation": {
+        "classification": {
+          "correct": 27,
+          "total": 30,
+          "accuracy": 0.9,
+          "macro_f1": 0.9015151515151515,
+          "per_class": {
+            "access": {
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333334,
+              "support": 5
+            },
+            "network": {
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "support": 5
+            },
+            "software": {
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "support": 5
+            },
+            "hardware": {
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "support": 5
+            },
+            "mail": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 5
+            },
+            "print": {
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091,
+              "support": 5
+            }
+          },
+          "matrix_order": [
+            "access",
+            "network",
+            "software",
+            "hardware",
+            "mail",
+            "print",
+            "review"
+          ],
+          "matrix": [
+            [
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "routing": {
+          "correct": 20,
+          "total": 36,
+          "accuracy": 0.5555555555555556,
+          "macro_f1": 0.5878684807256235,
+          "per_class": {
+            "access": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714,
+              "support": 5
+            },
+            "network": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714,
+              "support": 5
+            },
+            "software": {
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.75,
+              "support": 5
+            },
+            "hardware": {
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333,
+              "support": 5
+            },
+            "mail": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714,
+              "support": 5
+            },
+            "print": {
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "support": 5
+            },
+            "review": {
+              "precision": 0.2727272727272727,
+              "recall": 1.0,
+              "f1": 0.42857142857142855,
+              "support": 6
+            }
+          },
+          "matrix_order": [
+            "access",
+            "network",
+            "software",
+            "hardware",
+            "mail",
+            "print",
+            "review"
+          ],
+          "matrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              6
+            ]
+          ],
+          "auto_count": 14,
+          "coverage": 0.3888888888888889,
+          "auto_correct": 14,
+          "auto_accuracy": 1.0,
+          "review_expected": 6,
+          "review_held": 6
+        }
+      }
+    }
+  }
+}

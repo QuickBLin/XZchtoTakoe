@@ -1,0 +1,40 @@
+> python -m unittest -v test_system test_extended test_assistant
+
+test_baseline (test_system.SystemTests.test_baseline) ... ok
+test_invalid_input (test_system.SystemTests.test_invalid_input) ... ok
+test_prediction_and_route (test_system.SystemTests.test_prediction_and_route) ... ok
+test_route_boundaries (test_system.SystemTests.test_route_boundaries) ... ok
+test_window_and_persistence (test_system.SystemTests.test_window_and_persistence) ... ok
+test_duplicate_external_id (test_extended.CsvTests.test_duplicate_external_id) ... ok
+test_empty_batch (test_extended.CsvTests.test_empty_batch) ... ok
+test_file_and_row_limits (test_extended.CsvTests.test_file_and_row_limits) ... ok
+test_split_integrity (test_extended.CsvTests.test_split_integrity) ... ok
+test_utf8_bom_and_multiline (test_extended.CsvTests.test_utf8_bom_and_multiline) ... ok
+test_wrong_column_count (test_extended.CsvTests.test_wrong_column_count) ... ok
+test_wrong_encoding (test_extended.CsvTests.test_wrong_encoding) ... ok
+test_wrong_header (test_extended.CsvTests.test_wrong_header) ... ok
+test_concurrent_retry_is_idempotent (test_extended.IntegrationTests.test_concurrent_retry_is_idempotent) ... ok
+test_export_contains_initial_and_current (test_extended.IntegrationTests.test_export_contains_initial_and_current) ... ok
+test_export_retains_literal_formula_like_text (test_extended.IntegrationTests.test_export_retains_literal_formula_like_text) ... ok
+test_filter_uses_current_queue (test_extended.IntegrationTests.test_filter_uses_current_queue) ... ok
+test_guard_prevents_export_over_database (test_extended.IntegrationTests.test_guard_prevents_export_over_database) ... ok
+test_invalid_batch_leaves_journal_unchanged (test_extended.IntegrationTests.test_invalid_batch_leaves_journal_unchanged) ... ok
+test_original_database_reads_with_new_tables (test_extended.IntegrationTests.test_original_database_reads_with_new_tables) ... ok
+test_renamed_duplicate_is_idempotent (test_extended.IntegrationTests.test_renamed_duplicate_is_idempotent) ... ok
+test_sql_failure_rolls_back_entire_batch (test_extended.IntegrationTests.test_sql_failure_rolls_back_entire_batch) ... ok
+test_valid_batch_and_queue_totals (test_extended.IntegrationTests.test_valid_batch_and_queue_totals) ... ok
+test_window_full_batch_workflow (test_extended.IntegrationTests.test_window_full_batch_workflow) ... ok
+test_deterministic_search (test_assistant.AssistantTests.test_deterministic_search) ... ok
+test_empty_and_zero_feature_search (test_assistant.AssistantTests.test_empty_and_zero_feature_search) ... ok
+test_exact_text_has_maximum_similarity (test_assistant.AssistantTests.test_exact_text_has_maximum_similarity) ... ok
+test_gui_inspection_opens_and_keeps_journal (test_assistant.AssistantTests.test_gui_inspection_opens_and_keeps_journal) ... ok
+test_guidance_covers_all_routes (test_assistant.AssistantTests.test_guidance_covers_all_routes) ... ok
+test_review_brief_asks_for_clarification (test_assistant.AssistantTests.test_review_brief_asks_for_clarification) ... ok
+test_search_uses_training_ids_only (test_assistant.AssistantTests.test_search_uses_training_ids_only) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.054s
+
+OK
+
+Код выхода: 0. Ожидался: 0.

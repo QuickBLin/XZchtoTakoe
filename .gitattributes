@@ -1,0 +1,10 @@
+# Оценка хранит SHA-256 исходных CSV. Git сохраняет их байты при checkout.
+data/*.csv -text
+results/* -text
+*.cmd text eol=crlf
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.png binary
+*.jpg binary
+*.zip binary

@@ -1,0 +1,32 @@
+{
+  "system": {
+    "command": "python -m unittest -v test_system test_extended test_assistant",
+    "exit_code": 0,
+    "expected": 0
+  },
+  "experiments": {
+    "command": "python experiment.py",
+    "exit_code": 0,
+    "expected": 0
+  },
+  "research": {
+    "command": "python research.py",
+    "exit_code": 0,
+    "expected": 0
+  },
+  "batch_first": {
+    "command": "python route_batch.py examples/demo_batch.csv --db TEMP/demo.sqlite3 --export results\\demo_export.csv",
+    "exit_code": 0,
+    "expected": 0
+  },
+  "batch_repeat": {
+    "command": "python route_batch.py examples/demo_batch.csv --db TEMP/demo.sqlite3",
+    "exit_code": 0,
+    "expected": 0
+  },
+  "batch_reject": {
+    "command": "python route_batch.py examples/rejected_batch.csv --db TEMP/demo.sqlite3",
+    "exit_code": 2,
+    "expected": 2
+  }
+}

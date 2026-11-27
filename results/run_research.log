@@ -1,0 +1,126 @@
+> python research.py
+
+{
+  "learning_curve": [
+    {
+      "train_n": 12,
+      "runs": 9,
+      "mean_macro_f1": 0.34479631568035124,
+      "std_macro_f1": 0.06705694069792052,
+      "min": 0.24848231690336953,
+      "max": 0.4504460245636716
+    },
+    {
+      "train_n": 24,
+      "runs": 9,
+      "mean_macro_f1": 0.5251987165772856,
+      "std_macro_f1": 0.0904587272317161,
+      "min": 0.42116402116402113,
+      "max": 0.6764286281314145
+    },
+    {
+      "train_n": 48,
+      "runs": 9,
+      "mean_macro_f1": 0.663004459293589,
+      "std_macro_f1": 0.08983873307039716,
+      "min": 0.5446682946682947,
+      "max": 0.8757002801120447
+    },
+    {
+      "train_n": 96,
+      "runs": 9,
+      "mean_macro_f1": 0.7737945588091786,
+      "std_macro_f1": 0.058556386391193926,
+      "min": 0.7106676003734828,
+      "max": 0.8937013694366636
+    }
+  ],
+  "bootstrap": {
+    "test": {
+      "repeats": 5000,
+      "accuracy": 0.8,
+      "accuracy_percentile_95": [
+        0.7,
+        0.9
+      ],
+      "paired_difference": 0.18333333333333332,
+      "paired_difference_percentile_95": [
+        0.06666666666666667,
+        0.31666666666666665
+      ]
+    },
+    "stress": {
+      "repeats": 5000,
+      "accuracy": 0.5833333333333334,
+      "accuracy_percentile_95": [
+        0.4583333333333333,
+        0.6944444444444444
+      ],
+      "paired_difference": 0.20833333333333334,
+      "paired_difference_percentile_95": [
+        0.08333333333333333,
+        0.3333333333333333
+      ]
+    }
+  },
+  "thresholds_stress": [
+    {
+      "name": "Без отказа",
+      "min_score": 0.0,
+      "min_gap": 0.0,
+      "auto": 72,
+      "auto_correct": 39,
+      "auto_wrong": 33,
+      "manual": 0,
+      "routes_correct": 39
+    },
+    {
+      "name": "Мягкие",
+      "min_score": 0.25,
+      "min_gap": 0.05,
+      "auto": 56,
+      "auto_correct": 36,
+      "auto_wrong": 20,
+      "manual": 16,
+      "routes_correct": 42
+    },
+    {
+      "name": "Рабочие",
+      "min_score": 0.35,
+      "min_gap": 0.25,
+      "auto": 26,
+      "auto_correct": 22,
+      "auto_wrong": 4,
+      "manual": 46,
+      "routes_correct": 42
+    },
+    {
+      "name": "Строгие",
+      "min_score": 0.5,
+      "min_gap": 0.35,
+      "auto": 15,
+      "auto_correct": 14,
+      "auto_wrong": 1,
+      "manual": 57,
+      "routes_correct": 37
+    },
+    {
+      "name": "Очень строгие",
+      "min_score": 0.7,
+      "min_gap": 0.45,
+      "auto": 1,
+      "auto_correct": 1,
+      "auto_wrong": 0,
+      "manual": 71,
+      "routes_correct": 25
+    }
+  ],
+  "feature_counts": {
+    "features": 3885,
+    "word_features": 1248,
+    "char_features": 2637,
+    "classes": 6
+  }
+}
+
+Код выхода: 0. Ожидался: 0.

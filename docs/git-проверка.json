@@ -1,0 +1,9 @@
+{
+  "central_type": "Git bare repository",
+  "branch": "main",
+  "integrity": "git fsck --no-dangling passed",
+  "history_preserved": true,
+  "clone_push_fetch_verified": false,
+  "reason": "Git helper sh.exe blocked by Windows sandbox: NtCreateDirectoryObject 0xC0000022",
+  "required_for_two_computers": "Place one central repository on a shared path or Git server accessible to both participants"
+}

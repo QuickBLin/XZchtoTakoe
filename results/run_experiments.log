@@ -1,0 +1,14 @@
+> python experiment.py
+
+=== test, n=60 ===
+keywords topics=26/48 f1=0.688  queues=37/60  auto=26/27  review=11/12
+word     topics=41/48 f1=0.856  queues=35/60  auto=26/30  review=9/12
+char     topics=46/48 f1=0.958  queues=42/60  auto=32/34  review=10/12
+combined topics=46/48 f1=0.958  queues=48/60  auto=37/38  review=11/12
+=== stress, n=72 ===
+keywords topics=6/48 f1=0.219  queues=27/72  auto=6/10  review=21/24
+word     topics=32/48 f1=0.665  queues=36/72  auto=14/19  review=22/24
+char     topics=40/48 f1=0.839  queues=37/72  auto=16/19  review=21/24
+combined topics=39/48 f1=0.817  queues=42/72  auto=22/26  review=20/24
+
+Код выхода: 0. Ожидался: 0.

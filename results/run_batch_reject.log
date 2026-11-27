@@ -1,0 +1,5 @@
+> python route_batch.py examples/rejected_batch.csv --db TEMP/demo.sqlite3
+
+Ошибка: Строка 3: Введите текст обращения, содержащий хотя бы одну букву.
+
+Код выхода: 2. Ожидался: 2.
